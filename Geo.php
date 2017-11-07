@@ -143,6 +143,7 @@ class Geo extends Component
         $cookie = new Cookie([
             'name' => $this->cookieName,
             'value' => $cityId,
+            'httpOnly' => false,
             'expire' => time() + 3600 * 24 * $this->cookieExpire,
         ]);
 
