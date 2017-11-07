@@ -9,6 +9,7 @@
             "email": "backend@div26.ru"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "yiisoft/yii2": "*"
     },
