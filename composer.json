@@ -1,5 +1,5 @@
 {
-    "name": "pitonn/yii2-geoip",
+    "name": "div/yii2-geoip",
     "description": "Yii2 расширение для определения города пользователя (используется сервис ipgeobase.ru)",
     "version": "1.0.0",
     "licence": "MIT",
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "pitonn\\geoip\\": ""
+            "div\\geoip\\": ""
         }
     }
 }
