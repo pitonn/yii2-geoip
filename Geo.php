@@ -94,7 +94,7 @@ class Geo extends Component
             return null;
         }
 
-        $city = $cityClass::find()->where([$this->nameAttribute => $data['city']])->one();
+        $city = $cityClass::find()->where(['like', $this->nameAttribute, $data['city']])->one();
         if ($city) {
             $this->saveCookie($city->primaryKey);
             $this->city = $city;
